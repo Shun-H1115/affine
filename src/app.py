@@ -26,4 +26,4 @@ def error_func(params, src_points, dst_points):
 
         error += np.sum((np.dot(transform, src) - dst) ** 2)
 
-    return
+    return error
